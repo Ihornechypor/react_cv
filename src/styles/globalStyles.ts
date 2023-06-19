@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import theme from './theme';
+import theme, { themeColors } from './theme';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -34,12 +34,21 @@ const GlobalStyle = createGlobalStyle`
     text-align: left;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    height: 100vh;
   }
   
-  a {}
+  a {
+    color: ${theme.global.textColor};
+  }
+
+  ul {
+    padding-left: 30px;
+    margin: 0;
+  }
+
   h1 {}
   h2 {}
-  h1,h2 {margin:0 }
+  h1,h2,h3 { margin:0 }
   
   
   a, button {

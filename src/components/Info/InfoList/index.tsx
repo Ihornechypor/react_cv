@@ -1,5 +1,7 @@
 import { ReactNode } from 'react';
 import Icon from './../../Icon/index';
+import * as Styled from './InfoList.styles';
+
 interface InfoListProps {
   list: {
     icon: string;
@@ -9,13 +11,18 @@ interface InfoListProps {
 }
 
 export const InfoList = ({ list }: InfoListProps) => (
-  <ul>
+  <Styled.InfoList>
     {list.map((item, index) => (
-      <li key={index}>
-        <Icon icon={item.icon} size={16} />
-        {item.link && <a href={item.link}>{item.text}</a>}
-        {!item.link && item.text}
-      </li>
+      <Styled.InfoListItem key={index}>
+        <Icon icon={item.icon} size={18} />
+        {item.link ? (
+          <a href={item.link} target="_blank" rel="noreferrer">
+            {item.text}
+          </a>
+        ) : (
+          item.text
+        )}
+      </Styled.InfoListItem>
     ))}
-  </ul>
+  </Styled.InfoList>
 );

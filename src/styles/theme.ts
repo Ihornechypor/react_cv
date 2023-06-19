@@ -11,12 +11,12 @@ export const themeFonts = {
 
 const theme = {
   global: {
-    fontSize: '16px',
+    fontSize: '13px',
     font: themeFonts.mainFont,
     fontWeight: 400,
     textColor: themeColors.black,
     lineHeight: 1.4,
-    gutter: '30px',
+    gutter: '28px',
   },
 };
 
