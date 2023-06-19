@@ -1,5 +1,5 @@
-import theme from './theme';
 import { createGlobalStyle } from 'styled-components';
+import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -24,6 +24,8 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
   body {
+    margin: 0;
+    padding: 0;
     font-family: ${theme.global.font};
     font-weight: ${theme.global.fontWeight};
     font-size: ${theme.global.fontSize};
@@ -37,6 +39,8 @@ const GlobalStyle = createGlobalStyle`
   a {}
   h1 {}
   h2 {}
+  h1,h2 {margin:0 }
+  
   
   a, button {
     cursor: pointer;
