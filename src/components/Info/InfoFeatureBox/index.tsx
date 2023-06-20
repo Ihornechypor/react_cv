@@ -1,4 +1,3 @@
-import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css';
 
 import * as Styled from './InfoFeatureBox.styles';
@@ -16,7 +15,7 @@ export const InfoFeatureBox = ({ name, list }: InfoFeatureBoxProps) => (
     <ul>
       {list.map((item, index) => (
         <li key={index}>
-          {item.text} {item.rating && <Rating style={{ maxWidth: 80 }} value={item.rating} readOnly />}
+          {item.text} {item.rating && item.rating}
         </li>
       ))}
     </ul>
