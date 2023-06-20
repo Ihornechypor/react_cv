@@ -64,7 +64,7 @@ export const user = {
   langs: [
     { icon: 'pacman', text: 'Polish (C1)' },
     { icon: 'pacman', text: 'English (B2);' },
-    { icon: 'pacman', text: 'Ukrainian (C2);' },
+    { icon: 'pacman', text: 'Ukrainian (Native);' },
     { icon: 'pacman', text: 'Russian (C2);' },
   ],
   work: [
