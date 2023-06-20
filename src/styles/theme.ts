@@ -16,7 +16,7 @@ const theme = {
     fontWeight: 400,
     textColor: themeColors.black,
     lineHeight: 1.4,
-    gutter: '28px',
+    gutter: '24px',
   },
 };
 

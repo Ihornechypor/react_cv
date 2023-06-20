@@ -48,12 +48,27 @@ const GlobalStyle = createGlobalStyle`
 
   h1 {}
   h2 {}
-  h1,h2,h3 { margin:0 }
+  h1,h2,h3,p { margin:0 }
   
   
   a, button {
     cursor: pointer;
   }
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+
+  @media print {
+      body {
+        -webkit-print-color-adjust: exact;
+      }
+      .noPrint,
+      .noPrint * {
+        display: none !important;
+      }
+    }
+
 `;
 
 export default GlobalStyle;

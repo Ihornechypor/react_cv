@@ -1,9 +1,13 @@
 import Aside from './components/Aside';
 import Blockquote from './components/Blockquote';
+import Education from './components/Education/index';
 import CvHeader from './components/Header';
-import { InfoFeaturesWrap, InfoHead, InfoList, InfoText, InfoWrap } from './components/Info';
+import { InfoFeaturesWrap, InfoHead, InfoList, InfoWrap } from './components/Info';
 import { InfoFeatureBox } from './components/Info/InfoFeatureBox/index';
 import { Footer, Main } from './components/Layout';
+import { WorkSection } from './components/Work';
+import { WorkList } from './components/Work/WorkList/index';
+import { user } from './data';
 import GlobalStyle from './styles/globalStyles';
 function App() {
   return (
@@ -11,86 +15,37 @@ function App() {
       <GlobalStyle />
       <Main>
         <CvHeader
-          name="Ihor"
-          surname="Nechypor"
-          position="Front-End Developer"
-          srcLink="https://i.ibb.co/9VT55Yj/userss.jpg"
+          name={user.main.name}
+          surname={user.main.surname}
+          position={user.main.position}
+          srcLink={user.main.srcLink}
         />
         <InfoWrap>
           <Aside>
             <InfoHead text="Contact" />
-            <InfoList
-              list={[
-                { icon: 'bubble', link: '+48795439690', text: '+48795439690' },
-                { icon: 'address-book', link: 'mailto:igornetchipor@gmail.com', text: 'igornetchipor@gmail.com' },
-                { icon: 'earth', text: 'Poland, Warszawa' },
-                {
-                  icon: 'linkedin',
-                  link: 'https://www.linkedin.com/in/ihor-nechypor-45878292/',
-                  text: 'LinkedIn',
-                },
-              ]}
-            />
-            <InfoHead text="About" />
-            <InfoText
-              text="I am front-end developer with more then four years of experience in creating responsive landing pages,
-              websites and emails."
-            />
+            <InfoList list={user.contact} />
             <InfoHead text="Skills" />
             <InfoFeaturesWrap>
-              <InfoFeatureBox
-                name="Technologies and Libraries"
-                list={[
-                  { text: 'HTML5' },
-                  { text: 'CSS3/SCSS' },
-                  { text: 'JavaScript' },
-                  { text: 'TypeScript' },
-                  { text: 'React' },
-                  { text: 'Git' },
-                ]}
-              />
-              <InfoFeatureBox
-                name="React Libraries and Frameworks"
-                list={[{ text: 'Gatsby' }, { text: 'Styled Components' }, { text: 'MUI' }]}
-              />
+              {user.skills.map((item) => (
+                <InfoFeatureBox key={item.name} name={item.name} list={item.list} />
+              ))}
             </InfoFeaturesWrap>
-            <InfoFeatureBox
-              name="HTML/CSS/JS Frameworks"
-              list={[{ text: 'Bootstrap' }, { text: 'Zurb Foundation' }, { text: 'Zurb Foundation for emails' }]}
-            />
-            <InfoFeatureBox
-              name="Additional skills"
-              list={[
-                { text: 'Gulp / Parcel' },
-                { text: 'NPM / YARN' },
-                { text: 'Emmet/ REGEX' },
-                { text: 'Jira/YouTrack' },
-              ]}
-            />
             <InfoHead text="Projects" />
-            <InfoList
-              list={[
-                { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
-                { icon: 'sphere', link: 'https://falou.pl/', text: 'https://falou.pl/' },
-                {
-                  icon: 'sphere',
-                  link: 'https://www.serekwiejskipiatnica.pl/',
-                  text: 'https://www.serekwiejskipiatnica.pl/',
-                },
-                { icon: 'sphere', link: 'https://doradztwomediowe.pl/', text: 'https://doradztwomediowe.pl/' },
-                { icon: 'sphere', link: 'https://razemnampodrodze.pl/', text: 'https://razemnampodrodze.pl/' },
-                {
-                  icon: 'sphere',
-                  link: 'https://koktajle.piatnica.pl/',
-                  text: 'https://koktajle.piatnica.pl/',
-                },
-              ]}
-            />
+            <InfoList list={user.projects} />
+            <InfoHead text="Languages" />
+            <InfoList list={user.langs} />
           </Aside>
-          <section></section>
+          <WorkSection>
+            <InfoHead text="Work Experience" />
+            <WorkList list={user.work} />
+            <InfoHead text="Education" />
+            <InfoFeaturesWrap>
+              <Education list={user.edu} />
+            </InfoFeaturesWrap>
+          </WorkSection>
         </InfoWrap>
         <Footer>
-          <Blockquote text="Wyrażam zgodę na przetwarzanie moich danych osobowych przez Some S.A. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko." />
+          <Blockquote text={user.rodo} />
         </Footer>
       </Main>
     </>
