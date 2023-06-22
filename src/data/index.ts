@@ -74,7 +74,7 @@ export const user = {
       info: { name: 'Capital.com', link: 'https://capital.com/' },
       tasks: [
         'Portal supporting of capital.com;',
-        'Perfomanse optimisations of portal;',
+        'Performance optimisations of portal;',
         'Project build optimisations;',
       ],
     },
