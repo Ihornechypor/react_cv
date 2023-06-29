@@ -9,46 +9,52 @@ import { WorkSection } from './components/Work';
 import { WorkList } from './components/Work/WorkList/index';
 import { user } from './data';
 import GlobalStyle from './styles/globalStyles';
+import { Page, View, Document } from '@react-pdf/renderer';
+
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      <Main>
-        <CvHeader
-          name={user.main.name}
-          surname={user.main.surname}
-          position={user.main.position}
-          srcLink={user.main.srcLink}
-        />
-        <InfoWrap>
-          <Aside>
-            <InfoHead text="Contact" />
-            <InfoList list={user.contact} />
-            <InfoHead text="Skills" />
-            <InfoFeaturesWrap>
-              {user.skills.map((item) => (
-                <InfoFeatureBox key={item.name} name={item.name} list={item.list} />
-              ))}
-            </InfoFeaturesWrap>
-            <InfoHead text="Projects" />
-            <InfoList list={user.projects} />
-            <InfoHead text="Languages" />
-            <InfoList list={user.langs} />
-          </Aside>
-          <WorkSection>
-            <InfoHead text="Work Experience" />
-            <WorkList list={user.work} />
-            <InfoHead text="Education" />
-            <InfoFeaturesWrap>
-              <Education list={user.edu} />
-            </InfoFeaturesWrap>
-          </WorkSection>
-        </InfoWrap>
-        <Footer>
-          <Blockquote text={user.rodo} />
-        </Footer>
-      </Main>
-    </>
+    <Document>
+      <Page size="A4">
+        <View>
+          <GlobalStyle />
+          <Main>
+            <CvHeader
+              name={user.main.name}
+              surname={user.main.surname}
+              position={user.main.position}
+              srcLink={user.main.srcLink}
+            />
+            <InfoWrap>
+              <Aside>
+                <InfoHead text="Contact" />
+                <InfoList list={user.contact} />
+                <InfoHead text="Skills" />
+                <InfoFeaturesWrap>
+                  {user.skills.map((item) => (
+                    <InfoFeatureBox key={item.name} name={item.name} list={item.list} />
+                  ))}
+                </InfoFeaturesWrap>
+                <InfoHead text="Projects" />
+                <InfoList list={user.projects} />
+                <InfoHead text="Languages" />
+                <InfoList list={user.langs} />
+              </Aside>
+              <WorkSection>
+                <InfoHead text="Work Experience" />
+                <WorkList list={user.work} />
+                <InfoHead text="Education" />
+                <InfoFeaturesWrap>
+                  <Education list={user.edu} />
+                </InfoFeaturesWrap>
+              </WorkSection>
+            </InfoWrap>
+            <Footer>
+              <Blockquote text={user.rodo} />
+            </Footer>
+          </Main>
+        </View>
+      </Page>
+    </Document>
   );
 }
 

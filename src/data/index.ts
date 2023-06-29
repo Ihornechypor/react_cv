@@ -132,5 +132,5 @@ export const user = {
       data: [{ date: 'End date 2012', grade: 'Finance and Credit Master’s degree' }],
     },
   ],
-  rodo: 'Wyrażam zgodę na przetwarzanie moich danych osobowych przez Some S.A. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko. Wyrażam zgodę na przetwarzanie moich danych osobowych przez Some S.A. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko. Wyrażam zgodę na przetwarzanie moich danych osobowych przez Some S.A. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko. Wyrażam zgodę na przetwarzanie moich danych osobowych przez Some S.A. w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.',
+  rodo: '',
 };
