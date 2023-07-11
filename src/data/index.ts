@@ -47,6 +47,7 @@ export const user = {
   ],
   projects: [
     { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
+    { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'https://www.welbi.pl/' },
     { icon: 'sphere', link: 'https://falou.pl/', text: 'https://falou.pl/' },
     {
       icon: 'sphere',
