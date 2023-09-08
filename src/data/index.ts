@@ -71,7 +71,7 @@ export const user = {
   work: [
     {
       position: 'Front-end developer',
-      date: 'January 2023 – April 2024',
+      date: 'January 2023 – April 2023',
       info: { name: 'Capital.com', link: 'https://capital.com/' },
       tasks: [
         'Portal supporting of capital.com;',
