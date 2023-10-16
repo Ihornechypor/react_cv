@@ -13,6 +13,10 @@ const WorkList = styled.ul`
   a {
     line-height: 1.4;
   }
+
+  li {
+    font-size: 12px;
+  }
 `;
 
 export { WorkList };

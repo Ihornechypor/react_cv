@@ -71,6 +71,20 @@ export const user = {
   work: [
     {
       position: 'Front-end developer',
+      date: 'April 2023',
+      info: {
+        name: 'Freelance',
+        link: 'https://www.upwork.com/freelancers/~0165f53595b873f99c',
+        linkName: 'https://www.upwork.com/',
+      },
+      tasks: [
+        'Landing Pages development',
+        'HTML Emails and Signatures Developmentt',
+        'Performance Optimization of Webpages',
+      ],
+    },
+    {
+      position: 'Front-end developer',
       date: 'January 2023 – April 2023',
       info: { name: 'Capital.com', link: 'https://capital.com/' },
       tasks: [
@@ -86,8 +100,7 @@ export const user = {
       tasks: [
         'Develop projects using React, Gatsby, TypeScript;',
         'Creation reusable HTML/CSS/JS components;',
-        'Landing pages development;',
-        'Portal supporting and HTML email development;',
+        'Landing pages development / HTML email development;',
         'Trouble fixing webpagesand,emails appearance and perfomance;',
       ],
     },
@@ -105,10 +118,6 @@ export const user = {
       position: 'HTML Coder',
       date: 'December 2016 – March 2017',
       info: { name: 'Springs', link: 'https://springsapps.com' },
-      tasks: [
-        'Creating web-sites using Zurb-Foundation and HTML emails development;',
-        'Web content editing / Providing changes in (HTML/CSS) files;',
-      ],
     },
   ],
   edu: [

@@ -3,8 +3,8 @@ interface WorkListProps {
   list: {
     position: string;
     date: string;
-    info: { name: string; link?: string };
-    tasks: string[];
+    info: { name: string; link?: string; linkName?: string };
+    tasks?: string[];
   }[];
 }
 export const WorkList = ({ list }: WorkListProps) => (
@@ -15,17 +15,19 @@ export const WorkList = ({ list }: WorkListProps) => (
         <i>{item.date}</i>
         <p>
           {item.info.name}{' '}
-          {item.info.link && (
+          {item.info.link ? (
             <a href={item.info.link} target="_blank" rel="noreferrer">
-              ({item.info.link})
+              ({item.info.linkName ? item.info.linkName : item.info.link})
             </a>
-          )}
+          ) : null}
         </p>
-        <ul>
-          {item.tasks.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        {item.tasks ? (
+          <ul>
+            {item.tasks.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : null}
       </li>
     ))}
   </Styled.WorkList>

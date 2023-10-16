@@ -9,6 +9,7 @@ import { WorkSection } from './components/Work';
 import { WorkList } from './components/Work/WorkList/index';
 import { user } from './data';
 import GlobalStyle from './styles/globalStyles';
+import { A } from 'vite';
 import { Page, View, Document } from '@react-pdf/renderer';
 
 function App() {
