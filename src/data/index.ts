@@ -3,6 +3,8 @@ export const user = {
     name: 'Ihor',
     surname: 'Nechypor',
     position: 'Front-End Developer',
+    about:
+      'Proficient in creating responsive digital assets, such as emails, signatures, landing pages, and websites using HTML, CSS, and JavaScript. I prioritize performance with efficient code and maintainable JavaScript for an exceptional user experience.',
     srcLink: 'https://i.ibb.co/9VT55Yj/userss.jpg',
   },
   contact: [
@@ -71,7 +73,7 @@ export const user = {
   work: [
     {
       position: 'Front-end developer',
-      date: 'April 2023',
+      date: 'April 2023 - Present',
       info: {
         name: 'Freelance',
         link: 'https://www.upwork.com/freelancers/~0165f53595b873f99c',

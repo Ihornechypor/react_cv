@@ -9,7 +9,6 @@ import { WorkSection } from './components/Work';
 import { WorkList } from './components/Work/WorkList/index';
 import { user } from './data';
 import GlobalStyle from './styles/globalStyles';
-import { A } from 'vite';
 import { Page, View, Document } from '@react-pdf/renderer';
 
 function App() {
@@ -22,6 +21,7 @@ function App() {
             <CvHeader
               name={user.main.name}
               surname={user.main.surname}
+              about={user.main.about}
               position={user.main.position}
               srcLink={user.main.srcLink}
             />

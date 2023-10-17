@@ -22,5 +22,8 @@ const HeaderInfo = styled.div`
   h2 {
     font-size: 16px;
   }
+  p {
+    margin-top: 6px;
+  }
 `;
 export { Header, HeaderImg, HeaderInfo };
