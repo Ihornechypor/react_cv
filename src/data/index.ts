@@ -48,8 +48,10 @@ export const user = {
     },
   ],
   projects: [
-    { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
+    { icon: 'sphere', link: 'https://soxies.app/', text: 'https://soxies.app/' },
+    { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'https://razemwszkole.netlify.app/' },
     { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'https://www.welbi.pl/' },
+    { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
     { icon: 'sphere', link: 'https://falou.pl/', text: 'https://falou.pl/' },
     {
       icon: 'sphere',
