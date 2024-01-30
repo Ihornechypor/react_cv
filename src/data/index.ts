@@ -4,7 +4,7 @@ export const user = {
     surname: 'Nechypor',
     position: 'Front-End Developer',
     about:
-      'Proficient in creating responsive digital assets, such as emails, signatures, landing pages, and websites using HTML, CSS, and JavaScript. I prioritize performance with efficient code and maintainable JavaScript for an exceptional user experience.',
+      "I'm highly skilled at crafting responsive digital assets like emails, newsletters, EDM, signatures, Mailchimp templates, landing pages, HTML printable documents (PDF, PSD, XD, Figma to HTML), and websites. I use a blend of HTML, CSS, and JavaScript to make sure these assets not only look great but also work smoothly on different devices and platforms.",
     srcLink: 'https://i.ibb.co/9VT55Yj/userss.jpg',
   },
   contact: [
@@ -49,6 +49,7 @@ export const user = {
   ],
   projects: [
     { icon: 'sphere', link: 'https://soxies.app/', text: 'https://soxies.app/' },
+    { icon: 'sphere', link: 'https://detectivos.com/', text: 'https://detectivos.com/' },
     { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'https://razemwszkole.netlify.app/' },
     { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'https://www.welbi.pl/' },
     { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
