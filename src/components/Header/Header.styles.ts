@@ -4,7 +4,7 @@ import theme, { themeColors } from '../../styles/theme';
 const Header = styled.header`
   background-color: ${themeColors.dark};
   color: ${themeColors.primary};
-  padding: 0 ${theme.global.gutter} 20px;
+  padding: 10px ${theme.global.gutter} 20px;
   display: flex;
   align-items: flex-end;
   gap: 40px;
