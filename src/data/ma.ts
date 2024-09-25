@@ -48,6 +48,7 @@ export const user = {
     },
   ],
   projects: [
+    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'https://emailtpls.netlify.app/' },
     { icon: 'sphere', link: 'https://soxies.app/', text: 'https://soxies.app/' },
     { icon: 'sphere', link: 'https://detectivos.com/', text: 'https://detectivos.com/' },
     { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'https://razemwszkole.netlify.app/' },
