@@ -109,11 +109,6 @@ export const user = {
         'Creation triggered email an sms campaigns in Selligent Markieting Cloud;',
       ],
     },
-    {
-      position: 'HTML Coder',
-      date: 'December 2016 – March 2017',
-      info: { name: 'Springs', link: 'https://springsapps.com' },
-    },
   ],
   edu: [
     {
