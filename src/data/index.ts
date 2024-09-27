@@ -20,14 +20,7 @@ export const user = {
   skills: [
     {
       name: 'Technologies and Libraries',
-      list: [
-        { text: 'HTML5' },
-        { text: 'CSS3/SCSS' },
-        { text: 'JavaScript' },
-        { text: 'TypeScript' },
-        { text: 'React' },
-        { text: 'Git' },
-      ],
+      list: [{ text: 'HTML5' }, { text: 'CSS3/SCSS' }, { text: 'JavaScript / React' }, { text: 'React' }],
     },
     {
       name: 'React Libraries and Frameworks',
@@ -35,7 +28,7 @@ export const user = {
     },
     {
       name: 'HTML/CSS/JS Frameworks',
-      list: [{ text: 'Bootstrap' }, { text: 'Zurb Foundation' }, { text: 'Zurb Foundation for emails' }],
+      list: [{ text: 'Bootstrap / Zurb Foundation' }, { text: 'Zurb Foundation for emails' }],
     },
     {
       name: 'Additional skills',
@@ -49,7 +42,6 @@ export const user = {
   ],
   projects: [
     { icon: 'sphere', link: 'https://soxies.app/', text: 'https://soxies.app/' },
-    { icon: 'sphere', link: 'https://detectivos.com/', text: 'https://detectivos.com/' },
     { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'https://razemwszkole.netlify.app/' },
     { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'https://www.welbi.pl/' },
     { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
@@ -117,11 +109,6 @@ export const user = {
         'HTML emails development / Bug and trouble fixing of letter appearance;',
         'Creation triggered email an sms campaigns in Selligent Markieting Cloud;',
       ],
-    },
-    {
-      position: 'HTML Coder',
-      date: 'December 2016 – March 2017',
-      info: { name: 'Springs', link: 'https://springsapps.com' },
     },
   ],
   edu: [
