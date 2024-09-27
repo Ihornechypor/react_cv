@@ -59,13 +59,12 @@ export const user = {
       link: 'https://www.serekwiejskipiatnica.pl/',
       text: 'https://www.serekwiejskipiatnica.pl/',
     },
-    { icon: 'sphere', link: 'https://doradztwomediowe.pl/', text: 'https://doradztwomediowe.pl/' },
-    { icon: 'sphere', link: 'https://razemnampodrodze.pl/', text: 'https://razemnampodrodze.pl/' },
     {
       icon: 'sphere',
       link: 'https://koktajle.piatnica.pl/',
       text: 'https://koktajle.piatnica.pl/',
     },
+    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'https://emailtpls.netlify.app/' },
   ],
   langs: [
     { icon: 'pacman', text: 'Polish (C1)' },
@@ -84,7 +83,7 @@ export const user = {
       },
       tasks: [
         'Landing Pages development',
-        'HTML Emails and Signatures Developmentt',
+        'HTML Emails and Signatures development',
         'Performance Optimization of Webpages',
       ],
     },
