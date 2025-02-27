@@ -4,7 +4,7 @@ export const user = {
     surname: 'Nechypor',
     position: 'HTML Email Developer | HTML Coder | Frontend developer',
     about:
-      'I specialize in expert HTML coding, providing seamless conversion services from PSD, XD, and Figma to HTML. I create visually appealing and fully compatible newsletters and email signatures for platforms like Mailchimp, SendGrid, Mailjet, Marketo, and Customer.io. Additionally, I develop high-performance landing pages and offer professional HTML to PSD and Figma to PSD conversion services. My expertise in HTML, CSS, and JavaScript ensures the creation of stunning and highly functional digital assets.',
+      ' I specialize in converting PSD, XD, and Figma designs into HTML, crafting visually captivating and universally compatible newsletters and email signatures optimized for platforms like Mailchimp, Stripo, MailerLite, SendGrid, Mailjet, Marketo, Customer.io or any other CRM. Additionally, I design high-performance landing pages and offer professional conversion services, including HTML to PSD, Figma to HTML, and Lob templates. My proficiency in HTML, CSS, and JavaScript ensures the delivery of visually appealing and highly functional digital assets.',
     srcLink: 'https://i.ibb.co/9VT55Yj/userss.jpg',
   },
   contact: [
