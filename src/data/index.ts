@@ -41,22 +41,14 @@ export const user = {
     },
   ],
   projects: [
-    { icon: 'sphere', link: 'https://soxies.app/', text: 'https://soxies.app/' },
-    { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'https://razemwszkole.netlify.app/' },
-    { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'https://www.welbi.pl/' },
-    { icon: 'sphere', link: 'https://plejground.pl/', text: 'https://plejground.pl/' },
-    { icon: 'sphere', link: 'https://falou.pl/', text: 'https://falou.pl/' },
-    {
-      icon: 'sphere',
-      link: 'https://www.serekwiejskipiatnica.pl/',
-      text: 'https://www.serekwiejskipiatnica.pl/',
-    },
-    {
-      icon: 'sphere',
-      link: 'https://koktajle.piatnica.pl/',
-      text: 'https://koktajle.piatnica.pl/',
-    },
-    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'https://emailtpls.netlify.app/' },
+    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'Email templates' },
+    { icon: 'sphere', link: 'https://www.serekwiejskipiatnica.pl/', text: 'Serek' },
+    { icon: 'sphere', link: 'https://koktajle.piatnica.pl/', text: 'Koktajle' },
+    { icon: 'sphere', link: 'https://soxies.netlify.app', text: 'Soxies' },
+    { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'Razemwszkole' },
+    { icon: 'sphere', link: 'https://detectivos.netlify.app/', text: 'Detectivos' },
+    { icon: 'sphere', link: 'https://plejground.pl/', text: 'Plejground' },
+    { icon: 'sphere', link: 'https://falou.pl/', text: 'Falou' },
   ],
   langs: [
     { icon: 'pacman', text: 'Polish (C1)' },
@@ -74,9 +66,11 @@ export const user = {
         linkName: 'https://www.upwork.com/',
       },
       tasks: [
-        'Landing Pages development',
-        'HTML Emails and Signatures development',
-        'Performance Optimization of Webpages',
+        'Converting Figma, PSD, Adobe XD, and PDF designs into functional webpages or HTML documents',
+        'Ensure and optimize email display across various email clients',
+        'Creating customizable and reusable email templates for marketing automation platforms',
+        'Managing and executing email campaigns using various email marketing platforms and tools',
+        'Creating HTML newsletters, email signatures, and transactional emails',
       ],
     },
     {
@@ -84,9 +78,10 @@ export const user = {
       date: 'January 2023 – April 2023',
       info: { name: 'Capital.com', link: 'https://capital.com/' },
       tasks: [
-        'Portal supporting of capital.com;',
-        'Performance optimisations of portal;',
-        'Project build optimisations;',
+        'Develop projects using modern frameworks like React, Gatsby, and TypeScript',
+        'Create reusable HTML, CSS, and JavaScript components',
+        'Build landing pages and develop HTML emails',
+        'Troubleshoot and optimize webpage and email appearance and performance',
       ],
     },
     {
@@ -105,18 +100,14 @@ export const user = {
       date: 'September 2017 – June 2019',
       info: { name: 'Laurens Coster', link: 'https://laurenscoster.com/' },
       tasks: [
-        'Landing pages development and Wordpress integations;',
-        'HTML emails development / Bug and trouble fixing of letter appearance;',
-        'Creation triggered email an sms campaigns in Selligent Markieting Cloud;',
+        'Develop HTML newsletters and transaction emails',
+        'Implementation of automated email and SMS campaigns in Selligent Marketing Cloud',
+        'Bugs and trouble fixing of newsletters appearance',
+        'Landing pages development and Wordpress integrations',
       ],
     },
   ],
   edu: [
-    {
-      name: 'Technical School NOVA (Poland)',
-      link: 'https://www.nova.edu.pl/',
-      data: [{ date: 'July 2019', grade: 'IT technician' }],
-    },
     {
       name: 'Responsive Web Design (Freecodecamp)',
       link: 'https://www.freecodecamp.org/',
@@ -126,6 +117,13 @@ export const user = {
       name: 'Front-End Basic (Hillel IT School)',
       link: 'https://ithillel.ua/',
       data: [{ date: 'April 2016', grade: 'Front-end development course' }],
+    },
+  ],
+  edu2: [
+    {
+      name: 'Technical School NOVA (Poland)',
+      link: 'https://www.nova.edu.pl/',
+      data: [{ date: 'July 2019', grade: 'IT technician' }],
     },
     {
       name: 'Academy of Personnel Management (Kiev)',

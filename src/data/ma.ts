@@ -52,7 +52,6 @@ export const user = {
     { icon: 'sphere', link: 'https://soxies.netlify.app', text: 'Soxies' },
     { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'Razemwszkole' },
     { icon: 'sphere', link: 'https://detectivos.netlify.app/', text: 'Detectivos' },
-    { icon: 'sphere', link: 'https://www.welbi.pl/', text: 'Welbi' },
     { icon: 'sphere', link: 'https://plejground.pl/', text: 'Plejground' },
     { icon: 'sphere', link: 'https://falou.pl/', text: 'Falou' },
   ],
