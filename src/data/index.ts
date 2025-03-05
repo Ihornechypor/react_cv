@@ -20,11 +20,11 @@ export const user = {
   skills: [
     {
       name: 'Technologies and Libraries',
-      list: [{ text: 'HTML5' }, { text: 'CSS3/SCSS' }, { text: 'JavaScript / React' }, { text: 'React' }],
+      list: [{ text: 'HTML5' }, { text: 'CSS3/SCSS' }, { text: 'JavaScript / React' }],
     },
     {
       name: 'React Libraries and Frameworks',
-      list: [{ text: 'Gatsby' }, { text: 'Styled Components' }, { text: 'MUI' }],
+      list: [{ text: 'Gatsby' }, { text: 'MUI' }],
     },
     {
       name: 'HTML/CSS/JS Frameworks',
@@ -41,14 +41,12 @@ export const user = {
     },
   ],
   projects: [
-    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'Email templates' },
     { icon: 'sphere', link: 'https://www.serekwiejskipiatnica.pl/', text: 'Serek' },
-    { icon: 'sphere', link: 'https://koktajle.piatnica.pl/', text: 'Koktajle' },
     { icon: 'sphere', link: 'https://soxies.netlify.app', text: 'Soxies' },
     { icon: 'sphere', link: 'https://razemwszkole.netlify.app/', text: 'Razemwszkole' },
     { icon: 'sphere', link: 'https://detectivos.netlify.app/', text: 'Detectivos' },
     { icon: 'sphere', link: 'https://plejground.pl/', text: 'Plejground' },
-    { icon: 'sphere', link: 'https://falou.pl/', text: 'Falou' },
+    { icon: 'sphere', link: 'https://emailtpls.netlify.app/', text: 'Email templates' },
   ],
   langs: [
     { icon: 'pacman', text: 'Polish (C1)' },

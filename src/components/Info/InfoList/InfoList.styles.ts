@@ -9,7 +9,7 @@ const InfoList = styled.ul`
 const InfoListItem = styled.li`
   display: flex;
   align-items: center;
-  margin-top: 6px;
+  margin-top: 3px;
   font-size: 12px;
   a {
     text-decoration: none;
