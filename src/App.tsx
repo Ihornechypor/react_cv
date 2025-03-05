@@ -39,13 +39,15 @@ function App() {
                 <InfoList list={user.projects} />
                 <InfoHead text="Languages" />
                 <InfoList list={user.langs} />
+                <InfoHead text="Courses" />
+                <Education list={user.edu} />
               </Aside>
               <WorkSection>
                 <InfoHead text="Work Experience" />
                 <WorkList list={user.work} />
                 <InfoHead text="Education" />
                 <InfoFeaturesWrap>
-                  <Education list={user.edu} />
+                  <Education list={user.edu2} />
                 </InfoFeaturesWrap>
               </WorkSection>
             </InfoWrap>

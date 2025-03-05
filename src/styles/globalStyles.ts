@@ -35,6 +35,7 @@ const GlobalStyle = createGlobalStyle`
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     height: 100vh;
+    line-height: 1.3;
   }
   
   a {
@@ -49,7 +50,10 @@ const GlobalStyle = createGlobalStyle`
   h1 {}
   h2 {}
   h1,h2,h3,p { margin:0 }
-  
+
+  h2 {
+    margin-bottom: 10px;
+  }
   
   a, button {
     cursor: pointer;

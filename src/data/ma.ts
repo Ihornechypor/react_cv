@@ -4,7 +4,7 @@ export const user = {
     surname: 'Nechypor',
     position: 'HTML Email Developer | HTML Coder | Frontend developer',
     about:
-      ' I specialize in converting PSD, XD, and Figma designs into HTML, crafting visually captivating and universally compatible newsletters and email signatures optimized for platforms like Mailchimp, Stripo, MailerLite, SendGrid, Mailjet, Marketo, Customer.io or any other CRM. Additionally, I design high-performance landing pages and offer professional conversion services, including HTML to PSD, Figma to HTML, and Lob templates. My proficiency in HTML, CSS, and JavaScript ensures the delivery of visually appealing and highly functional digital assets.',
+      'Experienced in transforming PSD, XD, and Figma designs into pixel-perfect, responsive HTML, with expertise in creating visually engaging and universally compatible newsletters and email signatures optimized for various email marketing platforms. Skilled in designing high-performance landing pages to enhance user engagement and conversions, as well as offering professional conversion services, including HTML to PSD, Figma to HTML, and custom email templates. Proficient in HTML, CSS, and JavaScript, ensuring the delivery of visually appealing and highly functional digital assets.',
     srcLink: 'https://i.ibb.co/9VT55Yj/userss.jpg',
   },
   contact: [
@@ -73,9 +73,10 @@ export const user = {
       },
       tasks: [
         'Creating HTML newsletters, email signatures, and transactional emails',
+        'Ensure and optimize email display across various email clients',
+        'Creating customizable and reusable email templates for marketing automation platforms',
+        'Managing and executing email campaigns using various email marketing platforms and tools',
         'Converting Figma, PSD, Adobe XD, and PDF designs into functional webpages or HTML documents',
-        'Managing and executing email campaigns using platforms such as MailChimp and other email marketing tools',
-        'Developing editable and reusable templates for MailChimp and Marketo',
       ],
     },
     {
@@ -83,9 +84,9 @@ export const user = {
       date: 'January 2023 – April 2023',
       info: { name: 'Capital.com', link: 'https://capital.com/' },
       tasks: [
-        'Portal supporting of capital.com;',
-        'Performance optimisations of portal;',
-        'Project build optimisations;',
+        'Providing continuous support and maintenance for the company web pages',
+        'Enhancing web page performance for optimal efficiency',
+        'Optimizing project builds to improve scalability and speed',
       ],
     },
     {
@@ -93,10 +94,10 @@ export const user = {
       date: 'June 2019 – January 2023',
       info: { name: 'Plej z.o.o', link: 'https://plej.pl/' },
       tasks: [
-        'Develop projects using React, Gatsby, TypeScript;',
-        'Creation reusable HTML/CSS/JS components;',
-        'Landing pages development / HTML email development;',
-        'Trouble fixing webpagesand,emails appearance and perfomance;',
+        'Develop projects using modern frameworks like React, Gatsby, and TypeScript',
+        'Create reusable HTML, CSS, and JavaScript components',
+        'Build landing pages and develop HTML emails',
+        'Troubleshoot and optimize webpage and email appearance and performance',
       ],
     },
     {
@@ -104,18 +105,14 @@ export const user = {
       date: 'September 2017 – June 2019',
       info: { name: 'Laurens Coster', link: 'https://laurenscoster.com/' },
       tasks: [
-        'Landing pages development and Wordpress integations;',
-        'HTML emails development / Bug and trouble fixing of letter appearance;',
-        'Creation triggered email an sms campaigns in Selligent Markieting Cloud;',
+        'Develop HTML newsletters and transaction emails',
+        'Implementation of automated email and SMS campaigns in Selligent Marketing Cloud',
+        'Bugs and trouble fixing of newsletters appearance',
+        'Landing pages development and Wordpress integrations',
       ],
     },
   ],
   edu: [
-    {
-      name: 'Technical School NOVA (Poland)',
-      link: 'https://www.nova.edu.pl/',
-      data: [{ date: 'July 2019', grade: 'IT technician' }],
-    },
     {
       name: 'Responsive Web Design (Freecodecamp)',
       link: 'https://www.freecodecamp.org/',
@@ -125,6 +122,13 @@ export const user = {
       name: 'Front-End Basic (Hillel IT School)',
       link: 'https://ithillel.ua/',
       data: [{ date: 'April 2016', grade: 'Front-end development course' }],
+    },
+  ],
+  edu2: [
+    {
+      name: 'Technical School NOVA (Poland)',
+      link: 'https://www.nova.edu.pl/',
+      data: [{ date: 'July 2019', grade: 'IT technician' }],
     },
     {
       name: 'Academy of Personnel Management (Kiev)',
