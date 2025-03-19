@@ -7,7 +7,7 @@ import { InfoFeatureBox } from './components/Info/InfoFeatureBox/index';
 import { Footer, Main } from './components/Layout';
 import { WorkSection } from './components/Work';
 import { WorkList } from './components/Work/WorkList/index';
-import { user } from './data/index';
+import { user } from './data/ma';
 import GlobalStyle from './styles/globalStyles';
 import { Page, View, Document } from '@react-pdf/renderer';
 

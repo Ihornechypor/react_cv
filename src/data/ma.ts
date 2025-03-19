@@ -20,14 +20,7 @@ export const user = {
   skills: [
     {
       name: 'Technologies and Libraries',
-      list: [
-        { text: 'HTML5' },
-        { text: 'CSS3/SCSS' },
-        { text: 'JavaScript' },
-        { text: 'TypeScript' },
-        { text: 'React' },
-        { text: 'Git' },
-      ],
+      list: [{ text: 'HTML5' }, { text: 'CSS3/SCSS' }, { text: 'JavaScript / React' }, { text: 'Git' }],
     },
     {
       name: 'React Libraries and Frameworks',
@@ -35,7 +28,7 @@ export const user = {
     },
     {
       name: 'HTML/CSS/JS Frameworks',
-      list: [{ text: 'Bootstrap' }, { text: 'Zurb Foundation' }, { text: 'Zurb Foundation for emails' }],
+      list: [{ text: 'Bootstrap / Zurb Foundation / Zurb Foundation for emails' }],
     },
     {
       name: 'Additional skills',
@@ -58,8 +51,7 @@ export const user = {
   langs: [
     { icon: 'pacman', text: 'Polish (C1)' },
     { icon: 'pacman', text: 'English (B2);' },
-    { icon: 'pacman', text: 'Ukrainian (Native);' },
-    { icon: 'pacman', text: 'Russian (C2);' },
+    { icon: 'pacman', text: 'Ukrainian (Native) / Russian (Native)' },
   ],
 
   work: [
